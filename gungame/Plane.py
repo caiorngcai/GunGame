@@ -101,6 +101,7 @@ def main():
         screen.blit(backgroud,(0,0))
         hero.display()
         enemy.display()
+        
         enemy.move()
         enemy.fire()
         pygame.display.update()
